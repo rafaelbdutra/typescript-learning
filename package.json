@@ -2,6 +2,13 @@
   "name": "typescript-learning",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
   "dependencies": {
     "@types/jest": "^24.0.16",
     "@types/node": "^12.6.9",
@@ -12,12 +19,9 @@
     "react-scripts": "3.0.1",
     "typescript": "^3.5.3"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  "devDependencies": {
+    "css-loader": "^3.1.0",
+    "style-loader": "^1.0.0"
   },
   "eslintConfig": {
     "extends": "react-app"
